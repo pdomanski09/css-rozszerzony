@@ -4,6 +4,12 @@ div.klient[suma] {
 div.klient[suma="1500"] {
 	background-color: blue;
 }
-div.klient[detaliczny~="tak"] {
+div.klient[detaliczny*="tak"] {
 	background-color: red;
+}
+div.klient[suma^="25"] {
+	color: pink;
+}
+div.klient[suma$="00"] {
+	color: white;
 }
