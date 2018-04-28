@@ -1,0 +1,13 @@
+#truskawka1 {
+	float: left;
+}
+#truskawka2 {
+	float: right;
+}
+p:last-child {
+	clear: right;
+}
+img {
+	width: 200px;
+	height: 200px;
+}

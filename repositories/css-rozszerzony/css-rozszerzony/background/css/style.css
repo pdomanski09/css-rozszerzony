@@ -1,0 +1,9 @@
+#tlo-obrazek {
+	width: 900px;
+	height: 700px;
+	background-image: url(../img/7946_aee9.jpeg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: contain;
+}

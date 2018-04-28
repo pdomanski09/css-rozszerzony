@@ -1,0 +1,252 @@
+* {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+span {
+	color: #1ac056;
+}
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+section {
+	padding: 0 80px 100px;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: rgba(229, 214, 207, .6);
+	position: fixed;
+	padding: 20px;
+	z-index: 100;
+}
+nav ul > li {
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	height: 30px;
+	padding: 20px 30px;
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	right: 10%;
+}
+nav a {
+	color: #604040;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: all .5s;
+}
+nav a:hover {
+	color: #efebeb;
+}
+#main-head {
+	background-image: url(../img/header-background.jpg);
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+#main-head .header-content {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.header-content > h1 {
+	font-size: 5em;
+}
+.header-content > h2 {
+	margin-top: 1%;
+	font-weight: 300;
+	font-size: 2em;
+}
+#about {
+	background-color: #f9fcfe;
+	overflow: hidden;
+	padding: 20px;
+	box-shadow: 9px 10px 30px;
+}
+#about h2 {
+	height: 50px;
+}
+#about figure {
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: 0;
+}
+#about figure img {
+	max-height: 350px;
+	max-width: 100%;
+	border: 10px solid #fff;
+	border-radius: 15px;
+}
+#about article {
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+}
+#skills {
+	margin-top: 30px;
+}
+#skills p, #skills .skills-icons {
+	text-align: center;
+}
+#skills .skills-icons .skills-icons-item {
+	display: inline-block;
+	margin-top: 20px;
+	border-left: 50px solid #fff;
+}
+#skills {
+	margin-top: 50px;
+}
+#my-portfolio {
+	width: 100%;
+	height: 500px;
+}
+#my-portfolio .pictures{
+	width: 450px;
+	height: 450px;
+	display: inline-block;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+#pictures-item {
+	position: relative;
+	left: 10%;
+}
+#my-portfolio #pictures-item1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+#my-portfolio #pictures-item2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+#my-portfolio #pictures-item3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+.mask-out {
+	position: relative;
+	width: 95%;
+	height: 95%;
+	padding: 10px;
+}
+.mask-out:hover {
+	background-color: rgba(42, 61, 79, .6);
+}
+
+.mask {
+	padding: 10px;
+	width: 95%;
+	height: 95%;
+	border: 1.5px solid white;
+	background-color: rgba(42, 61, 79, .6);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+.mask:hover {
+	opacity: 1;
+}
+.mask p, h3, h4 {
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.mask p {
+	font-weight: 300;
+}
+.mask .fa-link {
+	margin-top: 30px;
+	font-size: 40px;
+	color: white;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#contact {
+	width: 100%;
+	height: 500px;
+	background-color: #2A2C5A;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0;
+	overflow: hidden;
+}
+#contact div {
+	display: inline-block;
+	float: left;
+}
+#contact div:nth-child(1) {
+	width: 40%;
+	height: 500px;
+	padding: 30px;
+}
+#contact div:nth-child(2) {
+	width: 60%;
+	height: 500px;
+}
+#adress {
+	margin-left: 20px;
+}
+#adress hgroup {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+#adress hgroup h2 {
+	position: relative;
+	left: -80px;
+}
+#adress address {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+#adress address a {
+	color: #1ac056;
+}
+#icons {
+	margin-left: 10%;
+}
+#icons figure {
+	width: 50px;
+	height: 40px;
+	border: 2px solid white;
+	display: inline-block;
+	text-align: center;
+	margin-left: 10%;
+}
+.icons-item {
+	font-size: 25px;
+	color: white;
+	padding-top: 15px;
+}
+
+
+
+
+footer {
+	width: 100%;
+	height: 20px;
+	background-color: #121326;
+	margin: 0 auto;
+	padding: 10px;
+}
+footer p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-weight: 400;
+	margin-left: 7%;
+}
